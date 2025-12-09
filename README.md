@@ -76,8 +76,23 @@ Om ni behöver hjälp så tagga mig med "@" framför i Teams så att det kommer 
 
  # OBS - FACIT
 
+ ## Kolla inte här förens du gjort "finn alla fel"
 
 
 
 
- - 
+ ### Sista varningen!!!!!!!!
+
+
+
+> Våra fel i koden:
+
+- CSS länkningen har fel filnamn
+- script-taggen saknar ordet defer
+- style i bodytaggen saknar ""-tecken för att fungera
+- h2-taggen kommer före h1-taggen
+- h2-taggen stängs med en h1-tagg
+- h1-taggen saknar korrekt stängning
+- img src saknar ändelsen .jpg på bildfilen
+- form-taggen ligger utanför body-taggen
+- första br-taggen har ett /-tecken som inte ska vara där
