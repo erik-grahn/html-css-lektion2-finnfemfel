@@ -1,7 +1,10 @@
 # html-css-lektion2-finnfemfel
 > Finn fem fel - träning i lektionen
 
+# Facit finns längre ner i README
+
 ## Intruktioner
+
 
 Skapa HTML-dokument med dolda fel
  
