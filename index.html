@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norrland - Sveriges hjärta!</title>
+    <link rel="stylesheet" href="CSS.styles.css">
 </head>
 <body style=background-color: lightblue;>
     <h1>Norrland - Sveriges hjärta!<h1>
     <p>Norrland är den största av Sveriges tre landsdelar och täcker över 60% av landets yta. Det är känt för sina vidsträckta skogar, fjäll och rika naturresurser. Norrland sträcker sig från Dalarna i söder till Treriksröset i norr, där Sverige möter Norge och Finland.</p>
     <img src="Assets/Norrsken-i-Norrland-Nygren-Lind-Resebyrå." alt="">
 </body>
+#kontaktformulär
+<form action="/submit_form" method="post">
+    <label for="name">Kontakta Norrland:</label></br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">E-post:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Meddelande:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+    <input type="submit" value="Skicka">
+</form>
 </html>
+
